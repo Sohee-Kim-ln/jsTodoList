@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+header {
+  display: flex;
+
+  height: 70px;
+  background-color: rgb(228, 205, 255);
+  color: black;
+
+  line-height: 70px;
+  padding: 0px 300px;
+
+  width: 100%;
+
+
+}
+
+.header-title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.header-today {
+  position: absolute;
+  right: 10%;
+}
+
+
+
+main {
+  margin: 30px 0px;
+  /* padding: 0px 100px; */
+  flex-grow: 1;
+  display: flex;
+}
+
+
+.main-groups {
+  position: relative;
+  left: 10%;
+  /* transform: translate(-50%,0); */
+
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.main-todos {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px;
+  justify-content: space-between;
+
+}
+
+.main-todos-paper {
+  border: 1px solid black;
+  margin: 2px 0px;
+}
+
+.main-todos-table {
+
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.main-todos-table tr td,
+tr {
+  border: 1px solid black;
+}
+
+.check {
+  text-align: center;
+}
+
+.todo {
+  width: 250px;
+  text-align: left;
+}
+
+.starbtn {
+  width: max-content;
+  text-align: right;
+}
+
+.main-todos-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-todoone {
+  position: absolute;
+  right: 10%;
+
+
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: space-between;
+
+}
+
+.todoone-btns {
+  text-align: right;
+}
+
+footer {
+  display: flex;
+
+  height: 70px;
+  background-color: rgb(228, 205, 255);
+  color: black;
+
+  line-height: 70px;
+  /* padding: 0px 300px; */
+  width: 100%;
+
+
+
+
+
+
+}
